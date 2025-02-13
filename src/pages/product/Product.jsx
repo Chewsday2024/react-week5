@@ -31,8 +31,8 @@ function Product () {
           play} = useFun();
 
 
-  useEffect(() => {
-    login();
+  useEffect( async () => {
+    await login();
 
     const token = document.cookie.replace(/(?:(?:^|.*;\s*)dogfood\s*\=\s*([^;]*).*$)|^.*$/,"$1",);
 

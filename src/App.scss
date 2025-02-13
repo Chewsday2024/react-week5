@@ -1,0 +1,18 @@
+img {
+  object-fit: cover;
+  height: 200px;
+}
+
+.primary-image {
+  height: 300px;
+}
+
+.images {
+  height: 150px;
+}
+
+
+
+.modal.modal-static .modal-dialog {
+  transform: none !important; /* 移除彈跳動畫 */
+}
